@@ -128,6 +128,7 @@ section {
 }
 
 #coaches h2 {
+  margin-bottom: -5vh;
   text-align: center;
   padding: 6rem;
 }
@@ -138,6 +139,7 @@ section {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: -2vh;
 }
 
 .coaches-text {
@@ -157,6 +159,14 @@ section {
 #powerlifting h2 {
   text-align: center;
   padding: 6rem;
+}
+
+#powerlifting h4 {
+  padding-left: 4rem;
+}
+
+.powerlifting-text{
+  padding-top: 20%;
 }
 
 /*----Endurance----*/
