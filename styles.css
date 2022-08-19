@@ -7,6 +7,10 @@
   font-family: "Poppins", sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .parent {
   overflow: scroll;
   height: 100vh;
