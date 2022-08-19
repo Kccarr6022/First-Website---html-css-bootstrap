@@ -261,6 +261,17 @@ section {
   padding: 6rem;
 }
 
+/*-----Subscribe Page---*/
+#subscribe {
+  background: black;
+}
+
+.subscribe-text {
+  color: white;
+  padding-top: 10rem;
+  padding-left: 1rem;
+}
+
 /*------Slide in-----*/
 
 @media (max-width: 900px) {
