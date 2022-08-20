@@ -9,6 +9,14 @@
 
 html {
   scroll-behavior: smooth;
+  background: black;
+}
+
+hr {
+  border: solid 1px #ffffff;
+  width: 96%;
+  color: #ffffff;
+  height: 1px;
 }
 
 .parent {
@@ -20,8 +28,6 @@ html {
 
 section {
   height: 100vh;
-  scroll-snap-align: start;
-  position: relative;
 }
 
 .container-fixed-top {
@@ -33,11 +39,6 @@ body {
   height: 100vh;
   scroll-snap-points-y: repeat(100vh);
   scroll-snap-type: y mandatory;
-}
-
-section {
-  scroll-snap-align: start;
-  position: relative;
 }
 
 /*------navbar-------*/
@@ -74,6 +75,8 @@ section {
 
 #mid {
   background-color: black;
+  scroll-snap-align: start;
+  position: relative;
 }
 
 .mid {
@@ -129,6 +132,8 @@ section {
   background-image: url(images/back.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  scroll-snap-align: start;
+  position: relative;
 }
 
 #coaches h2 {
@@ -158,6 +163,8 @@ section {
   background-image: url(images/powerlifting-page.webp);
   background-repeat: no-repeat;
   background-size: cover;
+  scroll-snap-align: start;
+  position: relative;
 }
 
 #powerlifting h2 {
@@ -243,6 +250,8 @@ section {
   background-image: url(images/endurance-page.png);
   background-repeat: no-repeat;
   background-size: cover;
+  scroll-snap-align: start;
+  position: relative;
 }
 
 #endurance h2 {
@@ -258,6 +267,8 @@ section {
   background-image: url(images/powerlifting-page.webp);
   background-repeat: no-repeat;
   background-size: cover;
+  scroll-snap-align: start;
+  position: relative;
 }
 
 #programs h2 {
@@ -267,6 +278,8 @@ section {
 
 /*-----Subscribe Page---*/
 #subscribe {
+  width: 100%;
+  height: 150vh;
   background: black;
 }
 
@@ -274,6 +287,10 @@ section {
   color: white;
   padding-top: 10rem;
   padding-left: 1rem;
+}
+
+.div-class {
+  clear: left;
 }
 
 /*------Slide in-----*/
