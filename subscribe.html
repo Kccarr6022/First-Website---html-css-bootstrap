@@ -60,10 +60,81 @@
     </nav>
 
     <!--Mid page-->
-    <section id="subscribe" style = "padding-top: 5%;">
-      <div class="container text-light font-weight-bold py-5 text-center">
+    <section id="subscribe" class="text-light pt-lg-5">
+      <div class="container py-5 text-center">
         <h2 class="bold">Checkout</h2>
-        <p> Below is where you gain access to our programs</p>
+        <p class="lead"> Below is where you gain access to our programs</p>
+      </div>
+
+      <div class="container">
+        <h4 class="mb-3">Contact Information</h4>
+        <form novalidate>
+          <div class="row g-3">
+            <div class="col-sm-6">
+              <label for="firstName" class="form-label">First Name</label>
+              <input id="firstName" type="text" class="form-control" placeholder="Kaden">
+              <div class="invalid-feedback">
+                Valid first name is required.
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <label for="lastName" class="form-label">Last Name</label>
+              <input id="lastName" type="text" class="form-control" placeholder="Mastronrdi">
+              <div class="invalid-feedback">
+                Valid last name is required.
+              </div>
+            </div>
+            <div class="col-12">
+              <label for="Email Address" class="form-label">Email Address</label>
+              <div class="input-group">
+                <span class="input-group-text">@</span>
+                <input id="Email Address" type="text" class="form-control" placeholder="exampleemail@gmail.com">
+              </div>
+              <div class="invalid-feedback">
+                Valid email address is required.
+              </div>
+            </div>
+            <div class="col-md-6">
+              <label for="country" class="form-label">Country</label>
+              <select id="country"
+              class="form-control" >
+                <option
+                value="">Choose...</option>
+                <option
+                value="United States">United States</option>
+                <option
+                value="Australia">Australia</option>
+                <option
+                value="United Kingdom">United Kingdom</option>
+                <option
+                value="France">France</option>
+              </select>
+              <div class="invalid-feedback">
+                Valid country is required.
+              </div>
+            </div>
+            <div class="col-md-6">
+              <label for="phonenumber" class="form-label">Mobile Number</label>
+              <input id="lastName" type="text" class="form-control" placeholder="000-941-2340">
+              <div class="invalid-feedback">
+                Valid mobile number is required.
+              </div>
+            </div>
+
+            <hr class="my-5">
+
+            <div class="col-12">
+              <div class="form-check">
+                <input id="sameAddress"
+                type="checkbox"
+                class="form-check-input">
+                <label class="form-check-label"
+                for="mobilecontact">Recieve programs
+                additionally through phone contact</label>
+              </div>
+            </div>
+        </div>
+        </form>
       </div>
     </section>
 
