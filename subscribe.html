@@ -145,12 +145,10 @@
 
             <hr class="my-5" />
 
-            <h4 class="mb-3">Payments</h4>
+            <h4 class="mb-3 col-12">Payments</h4>
+            <br />
 
-            <div
-              class="form-check div-class"
-              style="padding: 50px; display: inline"
-            >
+            <div class="form-check div-class col-12">
               <input
                 id="creditcard"
                 type="radio"
@@ -161,6 +159,61 @@
               />
               <label for="creditcard">Credit Card</label>
             </div>
+
+            <div class="form-check div-class col-12">
+              <input
+                id="debitcard"
+                type="radio"
+                name="paymentMethod"
+                class="form-check-input"
+                required
+              />
+              <label for="debitcard">Debit Card</label>
+            </div>
+
+            <div class="form-check div-class col-12">
+              <input
+                id="paypal"
+                type="radio"
+                name="paymentMethod"
+                class="form-check-input"
+                required
+              />
+              <label for="paypal">PayPal</label>
+            </div>
+          </div>
+
+            <div class="row my-3 gy-3">
+              <div class="col-md-6">
+                <label for="creditcardname" class="form-label">
+                  Name on card
+                </label>
+                <input type="text"
+                  id="creditcardname"
+                 class="form-control">
+                 <small class="text-muted">
+                    Full name as displayed on card
+                 </small>
+                 <div class="invalid-feedback">
+                    Name on card is invalid
+                 </div>
+              </div>
+              <div class="col-md-6">
+                <label for="creditcardnumber" class="form-label">
+                  Credit card number
+                </label>
+                <input type="text"
+                  id="creditcardnumber"
+                 class="form-control">
+                 <small class="text-muted">
+                    Card number as displayed on card
+                  </small>
+                 <div class="invalid-feedback">
+                    Card number is invalid
+                </div>
+              </div>
+            </div>
+
           </div>
         </form>
       </div>
