@@ -10,6 +10,7 @@
 html {
   scroll-behavior: smooth;
   background: black;
+  overflow: hidden;
 }
 
 hr {
@@ -279,7 +280,7 @@ body {
 /*-----Subscribe Page---*/
 #subscribe {
   width: 100%;
-  height: 180vh;
+  height: 200%;
   background: black;
 }
 
